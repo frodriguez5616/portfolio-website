@@ -46,28 +46,27 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Fernando',
+	lastName: 'Rodriguez',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Passionate for software development. Proficiency in Python, Javascript, React, HTML, CSS, Java, R, with a strong foundation in object-oriented programming. Additionally, my communication skills will enhance my ability to communicate with technical and non-technical stakeholders.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/frodriguez5616' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/fernandorodriguezestrada/'
 		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
+		/*
 		{
 			platform: Platform.StackOverflow,
 			link: 'https://stackoverflow.com/'
 		},
+		*/
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'frodriguez5616@gmail.com'
 		},
+		/*
 		{
 			platform: Platform.Youtube,
 			link: 'https://www.youtube.com'
@@ -76,6 +75,7 @@ export const HOME: HomePageParams = {
 			platform: Platform.Facebook,
 			link: 'https://www.facebook.com'
 		}
+		*/
 	]
 };
 
@@ -96,7 +96,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'https://docs.google.com/document/d/1TwMmUCO-nH4uuvN8zCizSp17PvIm2_2vbsMJ1NjS7h0/edit?usp=sharingf'
 };
 
 export const SEARCH: SearchPageParams = {

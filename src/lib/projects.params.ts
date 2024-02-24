@@ -3,6 +3,7 @@ import { getSkills } from './skills.params';
 import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
+	/*
 	{
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
@@ -61,6 +62,7 @@ const MY_PROJECTS: Array<Project> = [
 			}
 		]
 	}
+	*/
 ];
 
 export default MY_PROJECTS;
