@@ -7,7 +7,7 @@
 </script>
 
 <CommonPage {title}>
-	<div class="resume" download>
+	<div class="resume">
 		{#if item}
 			<a href={item}>
 				<Chip size={'1.25em'}>Google Drive</Chip>
